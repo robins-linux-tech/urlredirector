@@ -2,9 +2,15 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Redirecting...</title>
+     <meta property="og:title" content="Farjana Art Gallery">
+    <meta name="description" content="Hand-printed sarees, artistic panjabis & handmade jewellery — crafted with love and tradition. �">
+    <meta property="og:description" content="Hand-printed sarees, artistic panjabis & handmade jewellery — crafted with love and tradition. �">
+    <meta property="og:image" content="https://robins-linux-tech.github.io/cache.jpg">
+    <meta property="og:image:alt" content="Farjana Art Gallery">
+<title>Farzana Art gallery url Redirect...</title>
 
 <script>
+    //simple url redirector for my art gallery
     const params = new URLSearchParams(location.search);
     const target = params.get("url");
     if (target) location.href = target;
