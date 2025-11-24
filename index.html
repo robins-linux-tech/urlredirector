@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Redirecting...</title>
+
+<script>
+    const params = new URLSearchParams(location.search);
+    const target = params.get("url");
+    if (target) location.href = target;
+</script>
+
+<style>
+    body { display:none; }
+</style>
+</head>
+<body></body>
+</html>
